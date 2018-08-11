@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int i;
+    char array[13]={'p','r','e','e','t','h','i','s','e','d','i','g','a'};
+    for(i=0;i<=13;i++)
+    {
+        printf("%c",array[i]);
+    }
+
+    return 0;
+}
